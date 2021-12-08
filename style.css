@@ -8,7 +8,14 @@ header{
 body{
  overflow-x: hidden;
 }
-
+#titulo_n{
+    margin-left: 10px;
+    font-size:x-large;
+}
+#img_laranja{
+    margin-left: 24%;
+    margin-top: 35px;
+}
 #PL{
     margin-bottom: 40px;
     display: block;
@@ -117,11 +124,24 @@ footer img{
     display: flex;
     align-items: flex-start;
     margin-top: 50px;
+    width: 78%;
+    background-color: rgba(102, 102, 102, 0.116);
+    padding: 15px;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+#h1_n{
+    margin-top: 40px;
+}
 .not-corpo{
     display: block;
-    width: 70%;
+    width: 90%;
     margin: 20px;
 }
 
